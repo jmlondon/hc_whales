@@ -1,10 +1,19 @@
-**Chapter 2. Impacts of Two Extended Foraging Events by Mammal-Eating
-Killer Whales on the Population of Harbor Seals in Hood Canal,
-Washington.**
+# Impacts of Two Extended Foraging Events by Mammal-Eating Killer Whales on the Population of Harbor Seals in Hood Canal,Washington
 
-\
+---------------------------
 
-**Introduction**
+**Josh M London**  
+Polar Ecosystem Program  
+National Marine Mammal Laboratory, Alaska Fisheries Science Center  
+National Marine Fisheries Service, NOAA, US Dept. of Commerce  
+7600 Sand Point Way NE, Seattle, Washington, USA, 98115
+
+**Steven J. Jeffries** (WEFW)  
+**Monique Lance** (WDFW)  
+**John Durban** (SWFSC)  
+**Glenn VanBlaricom** (UW SAFS)  
+
+## Introduction
 
 The theory that transient-type, mammal-eating killer whales may be
 responsible for declines of pinniped populations in the Eastern North
@@ -102,9 +111,9 @@ harbor seals in Hood Canal. By comparing these estimates we not only
 gain insight into the trophic ecology of killer whales, but also the
 benefits and limitations of each approach.
 
-**Methods**
+## Methods
 
-**Behavioral Observations**
+### Behavioral Observations
 
 All behavioral observations were conducted under the authority of
 Scientific Research Permit No. 782-1719, issued by the National Marine
@@ -194,7 +203,7 @@ observed during the day are representative of killer whale behavior
 across day and night. Under this scenario, the average predation rate
 was extended across all hours of the day. 
 
-**Generalized Linear Model**
+### Generalized Linear Model
 
 Aerial counts done between 1996 and 2004 were assembled and incorporated
 into a generalized linear model (GLM) to evaluate the impact of killer
@@ -233,7 +242,7 @@ At the time of writing, the aerial surveys of Hood Canal for 2005 have
 been completed but counts from photographs have not been finalized. Once
 final counts are available, a similar GLM analysis will be conducted.
 
-**Bio-Energetic Monte Carlo Simulation**
+### Bio-Energetic Monte Carlo Simulation
 
 A bio-energetic model of killer whale consumption was developed to
 estimate the predicted number of seals consumed by killer whales during
@@ -390,9 +399,9 @@ values chosen from the listed ranges each time. A distribution of
 simulation outcomes and the median outcome along with 2.5 and 97.5
 percentiles were calculated.
 
-**Results**
+## Results
 
-**Behavioral Observations**
+### Behavioral Observations
 
 The killer whales present in 2003 and 2005 represent different
 individuals that are of no known relation. In 2003, the group consisted
@@ -462,7 +471,7 @@ extended predation events were often characterized by the presence of a
 seal at the surface. These longer predation events often involved a
 number of tail slap and ramming attacks on the seal.
 
-**Generalized Linear Model**
+### Generalized Linear Model
 
 Counts from aerial surveys at five index haul-outs in Hood Canal do not
 exhibit obvious signs of significant population reduction after either
@@ -513,8 +522,7 @@ favored ‘Treatment + Growth’ model suggest a treatment reduction of 24%
 (95% CI: +3.5% to -45.1%) after 2003 and a growth of 49% (95% CI: 0% to
 123%) in 2004. Note, for treatment effect and growth, the 95% confidence
 intervals include 0%.
-
-**Bio-energetic Monte Carlo Simulation**
+### Bio-energetic Monte Carlo Simulation
 
 Moisture content values were approximately 42 to 51 percent in the two
 harbor seal carcasses processed (Table 2.3). The yearling harbor seal
@@ -573,9 +581,9 @@ daylight only estimate falls just outside the 2.5 percentile.
 bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale
 incursions. 
 
-**Discussion**
+## Discussion
 
-**Behavioral Observations**
+### Behavioral Observations
 
 The two extended foraging events by killer whales in Hood Canal differ
 in many respects from the expected behavior of mammal-eating killer
@@ -640,7 +648,7 @@ of killer whales are likely influenced by more than just light-level.
 Actual predation rate likely falls within the bounds of these two
 estimates.
 
-**Bio-Energetic Model **
+### Bio-Energetic Model
 
 Despite differences in the 2003 and 2005 events (number of days, number
 of whales, individuals present, age and sex distribution), projected
@@ -670,7 +678,7 @@ estimates determined from field observations. The bio-energetic model
 and range of parameters used appear to be appropriate predictors of
 killer whale consumption of harbor seals in Hood Canal.
 
-**GLM Analysis of Harbor Seal Counts**
+### GLM Analysis of Harbor Seal Counts
 
 The difference between the predicted impact of killer whales on the
 harbor seal population in Hood Canal and the observed population change
@@ -696,6 +704,3 @@ explain why whales have chosen Hood Canal for these extended stays is
 mostly speculative at this point. It does, however, seem clear from the
 bio-energetic models that prey density plays a critical role in
 determining the timing of departure from Hood Canal.
-
-\
-
