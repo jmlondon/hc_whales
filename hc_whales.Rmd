@@ -83,77 +83,17 @@ Whale requirements divided by the caloric value of harbor seals results in a pre
 
 **Table 2.1** Parameter values and distributions used in the Monte Carlo simulation of Killer Whale consumption of Harbor Seals in Hood Canal, Washington.
 
-Parameter
+| Parameter | Source | Range | Distribution |
+|:--------- |:------ |:----- | ------------:|
+| Whale Requirements | Williams et al. (2004) | 55 kcal/kg/day | Fixed |
+| Adult Male Mass |  | 4200-7000 kg | Uniform |
+| Adult Female-Subadult Mass|  | 2100-3500 kg | Uniform |
+| Juvenile Mass |  | 1365-2275 kg | Uniform |
+| Harbor Seal Caloric Content | Perez | 2500-3800 kcal/kg | Uniform |
+| Harbor Seal Mass | WDFW unpub. data | 50 kg | Normal with s.d. = 7 |
+| Assimilation Value | Williams et al. (2004) | 0.85 | Fixed |
+| Number of Days |  | 59 | Fixed |
 
-Source
-
-Range
-
-Distribution
-
-Whale Requirements
-
-Williams et al. (2004)
-
-55 kcal/kg/day
-
-Fixed
-
-Adult Male Mass
-
-\
-
-4200-7000 kg
-
-Uniform
-
-Adult Female-Subadult Mass
-
-\
-
-2100-3500 kg
-
-Uniform
-
-Juvenile Mass
-
-\
-
-1365-2275 kg
-
-Uniform
-
-Harbor Seal Caloric Content
-
-Perez
-
-2500-3800 kcal/kg
-
-Uniform
-
-Harbor Seal Mass
-
-WDFW unpub. data
-
-50kg
-
-Normal with s.d. = 7
-
-Assimilation Value
-
-Williams et al. (2004)
-
-0.85
-
-Fixed
-
-Number of Days
-
-\
-
-59
-
-Fixed
 
 A range of values was used for each parameter in the model (Table 2.1). A value of 55 kcal/kg/day is the median value reported (51-59) by Williams et al. (2004) for metabolic requirement of mammal eating killer whales. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. The assimilation value of 0.85 is similar to values reported by Williams et al. (2004).
 
@@ -189,25 +129,12 @@ AIC values were determined for each GLM representing the four hypotheses (Table 
 
 **Table 2.2** AIC values from four GLMs evaluating hypotheses of harbor seal population response to killer whale predation in Hood Canal, Washington
 
-Model
-
-AIC
-
-No Effect
-
-1072.736
-
-Year Effect
-
-1071.260
-
-Treatment Only
-
-1073.297
-
-Treatment + Growth
-
-1070.064
+| Model | AIC | 
+|:----- |---:|
+| No Effect | 1072.736 |
+| Year Effect | 1071.260 |
+| Treatment Only | 1073.297 |
+| Treatment + Growth | 1070.064 |
 
 The treatment and growth coefficients calculated from the GLM under the favored ‘Treatment + Growth’ model suggest a treatment reduction of 24% (95% CI: +3.5% to -45.1%) after 2003 and a growth of 49% (95% CI: 0% to 123%) in 2004. Note, for treatment effect and growth, the 95% confidence intervals include 0%.
 
@@ -219,29 +146,10 @@ The values of 2798 kcal/kg for the 49kg sub-adult and 3590 kcal/kg for the 19kg 
 
 **Table 2.3** Calorimetric values determined from whole body harbor seal carcasses recovered in Washington State.
 
-Age Class
-
-Mass (kg)
-
-% Moisture
-
-kcal/kg
-
-SubAdult
-
-49 kg
-
-42.6
-
-2798
-
-Yearling
-
-19 kg
-
-50.8
-
-3590
+| Age Class | Mass (kg) | % Moisture | kcal/kg |
+|:--------- | ---------:| ----------:| -------:|
+| SubAdult | 49 | 42.6 | 2798 |
+| Yearling | 19 | 50.8 | 3590 |
 
 
 The bio-energetic Monte Carlo simulation for the 2003 event resulted in a median outcome of 997 seals consumed (5th and 95th percentiles: 708, 1435). For the 2005 event, the median outcome determined from the model was 960 (2.5 and 97.5 percentiles: 685, 1383). The distributions of outcomes for both events are strikingly similar (Figure 2.4). The bio-energetic model prediction compares with estimates of 758 and 1358 seals consumed for the diurnal only and all hour assumptions respectively. The estimate from the bio-energetic model falls almost near the midpoint of these two empirical estimates and the all-hour consumption estimate of 1358 is within the 95% confidence range. The daylight only estimate falls just outside the 2.5 percentile.
