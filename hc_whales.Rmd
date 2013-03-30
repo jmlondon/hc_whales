@@ -69,6 +69,7 @@ Carcasses were ground whole in the food preparation area at United Farms in Grah
 
 Calorimetric content was determined with a Parr 1425 semi-micro bomb calorimeter (Parr Instrument Company, Moline, Illinois). Two 10g sub samples from each specimen were dried to constant mass at 50 C. Constant mass was reached when the percent change in mass was less than 0.2% in a 24-hour period. Sub-samples were further homogenized with mortar and pestle and an approximate 0.10g pellet was used in the bomb calorimeter. Caloric content was determined and converted to wet weight values based on sample moisture loss during drying.
 
+
 The equation for determining total caloric requirements of the mammal-eating killer whales in Hood Canal:
 
 *(Whale kcal/kg/day) x [(Adult Male Mass x N~m~ whales) + (Adult Female - Subadult Mass x N~f~ whales) + (Juvenile Mass x N~j~ whales)] x (t Days)*
@@ -81,6 +82,27 @@ The caloric value of harbor seals in Hood Canal can be determined from
 
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
+```{r}
+whale_req <- 55
+ad_male_mass <- runif(15000,4200,7000)
+fem_sub_mass <- runif(15000,2100,3500)
+juv_mass <- runif(15000,1365,2275)
+hs_cal <- runif(15000,2500,3800)
+hs_mass <- rnorm(15000,50,7)
+assim_val <- 0.85
+n_days_03 <- 59
+n_days_05 <- 172
+
+#2003
+res_03 <- whale_req * ((ad_male_mass * 2) + (fem_sub_mass * 7) + (juv_mass * 2)) * n_days_03
+res_03 <- res_03/(hs_cal*hs_mass*assim_val)
+
+#2005
+res_05 <- whale_req * ((fem_sub_mass * 4) + (juv_mass * 2)) * n_days_05
+res_05 <- res_05/(hs_cal*hs_mass*assim_val)
+```
+
+
 **Table 2.1** Parameter values and distributions used in the Monte Carlo simulation of Killer Whale consumption of Harbor Seals in Hood Canal, Washington.
 
 | Parameter | Source | Range | Distribution |
@@ -92,7 +114,8 @@ Whale requirements divided by the caloric value of harbor seals results in a pre
 | Harbor Seal Caloric Content | Perez | 2500-3800 kcal/kg | Uniform |
 | Harbor Seal Mass | WDFW unpub. data | 50 kg | Normal with s.d. = 7 |
 | Assimilation Value | Williams et al. (2004) | 0.85 | Fixed |
-| Number of Days |  | 59 | Fixed |
+| Number of Days (2003) |  | 59 | Fixed |
+| Number of Days (2005) |  | 172 | Fixed |
 
 
 A range of values was used for each parameter in the model (Table 2.1). A value of 55 kcal/kg/day is the median value reported (51-59) by Williams et al. (2004) for metabolic requirement of mammal eating killer whales. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. The assimilation value of 0.85 is similar to values reported by Williams et al. (2004).
