@@ -103,7 +103,7 @@ juv_mass <- matrix(runif(2*n,1365,2275),nrow=n,ncol=2)
 whale_mass <-cbind(ad_male_mass,fem_sub_mass,juv_mass)
 hs_cal <- runif(n,2500,3800)
 hs_mass <- rnorm(n,50,7)
-assim_val <- 0.85
+assim_val <- rnorm(n,0.85,0.035)
 n_days_03 <- 59
 
 res_03 <- whale_req * whale_mass * n_days_03
@@ -118,7 +118,7 @@ juv_mass <- matrix(runif(2*n,1365,2275),nrow=n,ncol=2)
 whale_mass <-cbind(fem_sub_mass,juv_mass)
 hs_cal <- runif(n,2500,3800)
 hs_mass <- rnorm(n,50,7)
-assim_val <- 0.85
+assim_val <- rnorm(n,0.85,0.035)
 n_days_05 <- 172
 
 res_05 <- whale_req * whale_mass * n_days_05
