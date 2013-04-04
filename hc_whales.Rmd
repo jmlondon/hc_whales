@@ -89,7 +89,7 @@ $$
     \end{aligned}
 $$
 
-where $K_{seal}$ is the caloric value of a seal in kcal/kg, $M_{seal}$ is the mass of a harbor seal and $\A_{whale}$ is the caloric assimilation value for whales.
+where $K_{seal}$ is the caloric value of a seal in kcal/kg, $M_{seal}$ is the mass of a harbor seal and $A_{whale}$ is the caloric assimilation value for whales.
 
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
