@@ -119,7 +119,7 @@ where $K_{seal}$ is the caloric value of a seal in kcal/kg, $M_{seal}$ is the ma
 
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
-```{r}
+```{r, echo=FALSE}
 #2003
 n=50000
 whale_req <- rnorm(n,54,5.5)
