@@ -15,7 +15,7 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 
 ---------------------------
 
-```{r my.options,include=FALSE}
+```{r options,include=FALSE}
 #print figure captions for RStudio generated HTML
 knit_hooks$set(plot = function(x, options) {
     paste("<figure><img src=\"", opts_knit$get("base.url"), paste(x, collapse = "."), 
@@ -119,7 +119,7 @@ where $K_{seal}$ is the caloric value of a seal in kcal/kg, $M_{seal}$ is the ma
 
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
-```{r, echo=FALSE}
+```{r bio-energy-model, echo=FALSE}
 #2003
 n=50000
 whale_req <- rnorm(n,54,5.5)
@@ -226,7 +226,7 @@ The values of 2798 kcal/kg for the 49kg sub-adult and 3590 kcal/kg for the 19kg 
 
 The bio-energetic Monte Carlo simulation for the 2003 event resulted in a median outcome of 997 seals consumed (5th and 95th percentiles: 708, 1435). For the 2005 event, the median outcome determined from the model was 960 (2.5 and 97.5 percentiles: 685, 1383). The distributions of outcomes for both events are strikingly similar (Figure 2.4). The bio-energetic model prediction compares with estimates of 758 and 1358 seals consumed for the diurnal only and all hour assumptions respectively. The estimate from the bio-energetic model falls almost near the midpoint of these two empirical estimates and the all-hour consumption estimate of 1358 is within the 95% confidence range. The daylight only estimate falls just outside the 2.5 percentile.
 
-```{r,echo=FALSE,fig.cap=fn("Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions"),warning=FALSE,message=FALSE}
+```{r mc-density-plot,echo=FALSE,fig.cap=fn("Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions"),warning=FALSE,message=FALSE}
 plot(density(sums_03),col="red")
 lines(density(sums_05),col="blue")
 ```
