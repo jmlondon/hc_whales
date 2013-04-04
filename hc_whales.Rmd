@@ -127,7 +127,7 @@ sums_05 <- rowSums(res_05)
 ```
 
 
-**Table 2.1** Parameter values and distributions used in the Monte Carlo simulation of Killer Whale consumption of Harbor Seals in Hood Canal, Washington.
+**Table 2.1** Parameter values and distributions used in the Monte Carlo simulation of killer whale consumption of harbor seals in Hood Canal, Washington.
 
 | Parameter | Source | Range | Distribution |
 |:--------- |:------ |:----- | ------------:|
@@ -137,7 +137,7 @@ sums_05 <- rowSums(res_05)
 | Juvenile Mass |  | 1365-2275 kg | Uniform |
 | Harbor Seal Caloric Content | Perez | 2500-3800 kcal/kg | Uniform |
 | Harbor Seal Mass | WDFW unpub. data | 50 kg | Normal with s.d. = 7 |
-| Assimilation Value | Williams et al. (2004) | 0.85 | Fixed |
+| Assimilation Value | Williams et al. (2004) | 0.847 | Normal with s.d. = 0.035 |
 | Number of Days (2003) |  | 59 | Fixed |
 | Number of Days (2005) |  | 172 | Fixed |
 
