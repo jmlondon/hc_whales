@@ -153,7 +153,7 @@ sums_05 <- rowSums(res_05)
 ```
 
 
-**Table 2.1** Parameter values and distributions used in the Monte Carlo simulation of killer whale consumption of harbor seals in Hood Canal, Washington.
+`r tn("Parameter values and distributions used in the Monte Carlo simulation of killer whale consumption of harbor seals in Hood Canal, Washington.")`
 
 | Parameter | Source | Range | Distribution |
 |:--------- |:------ |:----- | ------------:|
@@ -199,7 +199,7 @@ Counts from aerial surveys at five index haul-outs in Hood Canal do not exhibit 
 
 AIC values were determined for each GLM representing the four hypotheses (Table 2.2). The ‘Treatment + Growth’ model was favored with the lowest AIC value of 1070.064. However, the AIC values for the other models resulted in delta values of as little as 1.196 (‘Year Model’) and as much as 3.233 (‘Treatment Model’). 
 
-**Table 2.2** AIC values from four GLMs evaluating hypotheses of harbor seal population response to killer whale predation in Hood Canal, Washington
+`r tn("AIC values from four GLMs evaluating hypotheses of harbor seal population response to killer whale predation in Hood Canal, Washington.")`
 
 | Model | AIC | 
 |:----- |---:|
@@ -216,7 +216,7 @@ Moisture content values were approximately 42 to 51 percent in the two harbor se
 
 The values of 2798 kcal/kg for the 49kg sub-adult and 3590 kcal/kg for the 19kg yearling are lower values than reported for ringed seals (Perez 1990) and other pinnipeds (Williams et al. 2004).
 
-**Table 2.3** Calorimetric values determined from whole body harbor seal carcasses recovered in Washington State.
+`r tn("Calorimetric values determined from whole body harbor seal carcasses recovered in Washington State.")`
 
 | Age Class | Mass (kg) | % Moisture | kcal/kg |
 |:--------- | ---------:| ----------:| -------:|
