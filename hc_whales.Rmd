@@ -141,10 +141,9 @@ sums_05 <- rowSums(res_05)
 | Number of Days (2003) |  | 59 | Fixed |
 | Number of Days (2005) |  | 172 | Fixed |
 
+A range of values was used for each parameter in the model (Table 2.1). A value of 54 kcal/kg/day is the mean value reported by Williams et al. (2004), Kriete (1995) and Barret-Leondard (1995) for metabolic requirements of mammal eating killer whales. The standard deviation was specified with a value of 5.5. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington (this study) as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. Williams et al. (2004) reported an average assimilation value of 0.847 and a value of 0.035 was used for the standard deviation.
 
-A range of values was used for each parameter in the model (Table 2.1). A value of 54 kcal/kg/day is the mean value reported by Williams et al. (2004), Kriete (1995) and Barret-Leondard (1995) for metabolic requirements of mammal eating killer whales. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. The assimilation value of 0.85 is similar to values reported by Williams et al. (2004).
-
-The bio-energetic model was calculated 15,000 times with new parameter values chosen from the listed ranges each time. A distribution of simulation outcomes and the median outcome along with 2.5 and 97.5 percentiles were calculated.
+The bio-energetic model was calculated 50,000 times with new parameter values chosen from the listed ranges each time. Consumption was determined for each whale within each iteration to better capture individual variability. A distribution of simulation outcomes and the median outcome along with 2.5 and 97.5 percentiles were calculated.
 
 ## Results
 
