@@ -173,7 +173,7 @@ The values of 2798 kcal/kg for the 49kg sub-adult and 3590 kcal/kg for the 19kg 
 
 The bio-energetic Monte Carlo simulation for the 2003 event resulted in a median outcome of 997 seals consumed (5th and 95th percentiles: 708, 1435). For the 2005 event, the median outcome determined from the model was 960 (2.5 and 97.5 percentiles: 685, 1383). The distributions of outcomes for both events are strikingly similar (Figure 2.4). The bio-energetic model prediction compares with estimates of 758 and 1358 seals consumed for the diurnal only and all hour assumptions respectively. The estimate from the bio-energetic model falls almost near the midpoint of these two empirical estimates and the all-hour consumption estimate of 1358 is within the 95% confidence range. The daylight only estimate falls just outside the 2.5 percentile.
 
-<figure><img src="figure/unnamed-chunk-2.png"><figcaption><strong>Figure 1</strong>: Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions</figcaption></figure>
+<figure><img src="figure/mc-density-plot.png"><figcaption><strong>Figure 1</strong>: Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions</figcaption></figure>
 
 
 ## Discussion
