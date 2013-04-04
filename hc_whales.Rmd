@@ -36,7 +36,7 @@ tn = local({
   i = 0
   function(x) {
     i <<- i + 1
-    paste('Table ', i, ': ', x, sep = '')
+    paste('**Table ', i, '**: ', x, sep = '')
   }
 })
 ```
