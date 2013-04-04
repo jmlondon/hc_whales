@@ -83,23 +83,36 @@ The caloric value of harbor seals in Hood Canal can be determined from
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
 ```{r}
-whale_req <- 55
-ad_male_mass <- runif(15000,4200,7000)
-fem_sub_mass <- runif(15000,2100,3500)
-juv_mass <- runif(15000,1365,2275)
-hs_cal <- runif(15000,2500,3800)
-hs_mass <- rnorm(15000,50,7)
+#2003
+n=50000
+whale_req <- rnorm(n,54,5.5)
+ad_male_mass <- matrix(runif(2*n,4200,7000),nrow=n,ncol=2)
+fem_sub_mass <- matrix(runif(7*n,2100,3500),nrow=n,ncol=7)
+juv_mass <- matrix(runif(2*n,1365,2275),nrow=n,ncol=2)
+whale_mass <-cbind(ad_male_mass,fem_sub_mass,juv_mass)
+hs_cal <- runif(n,2500,3800)
+hs_mass <- rnorm(n,50,7)
 assim_val <- 0.85
 n_days_03 <- 59
-n_days_05 <- 172
 
-#2003
-res_03 <- whale_req * ((ad_male_mass * 2) + (fem_sub_mass * 7) + (juv_mass * 2)) * n_days_03
+res_03 <- whale_req * whale_mass * n_days_03
 res_03 <- res_03/(hs_cal*hs_mass*assim_val)
+sums_03 <- rowSums(res_03)
 
 #2005
-res_05 <- whale_req * ((fem_sub_mass * 4) + (juv_mass * 2)) * n_days_05
+n=50000
+whale_req <- rnorm(n,54,5.5)
+fem_sub_mass <- matrix(runif(4*n,2100,3500),nrow=n,ncol=4)
+juv_mass <- matrix(runif(2*n,1365,2275),nrow=n,ncol=2)
+whale_mass <-cbind(fem_sub_mass,juv_mass)
+hs_cal <- runif(n,2500,3800)
+hs_mass <- rnorm(n,50,7)
+assim_val <- 0.85
+n_days_05 <- 172
+
+res_05 <- whale_req * whale_mass * n_days_05
 res_05 <- res_05/(hs_cal*hs_mass*assim_val)
+sums_05 <- rowSums(res_05)
 ```
 
 
@@ -107,7 +120,7 @@ res_05 <- res_05/(hs_cal*hs_mass*assim_val)
 
 | Parameter | Source | Range | Distribution |
 |:--------- |:------ |:----- | ------------:|
-| Whale Requirements | Williams et al. (2004) | 55 kcal/kg/day | Fixed |
+| Whale Requirements | Williams et al. (2004) | 54 kcal/kg/day | Normal with s.d. = 5.5 |
 | Adult Male Mass |  | 4200-7000 kg | Uniform |
 | Adult Female-Subadult Mass|  | 2100-3500 kg | Uniform |
 | Juvenile Mass |  | 1365-2275 kg | Uniform |
@@ -118,7 +131,7 @@ res_05 <- res_05/(hs_cal*hs_mass*assim_val)
 | Number of Days (2005) |  | 172 | Fixed |
 
 
-A range of values was used for each parameter in the model (Table 2.1). A value of 55 kcal/kg/day is the median value reported (51-59) by Williams et al. (2004) for metabolic requirement of mammal eating killer whales. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. The assimilation value of 0.85 is similar to values reported by Williams et al. (2004).
+A range of values was used for each parameter in the model (Table 2.1). A value of 54 kcal/kg/day is the mean value reported by Williams et al. (2004), Kriete (1995) and Barret-Leondard (1995) for metabolic requirements of mammal eating killer whales. Ranges for killer whale mass were determined from reported values and consultation with other killer whale biologists. The harbor seal caloric content range includes values determined from the analysis of seals from Washington as well as reported values by Perez (1990) for ringed seals. The harbor seal mass value is a weighted average of non-pup, non-pregnant harbor seals captured in Hood Canal between 1998 and 2002 (n=175). Non-pup, non-pregnant weights are used to best represent the available prey between January and June. The assimilation value of 0.85 is similar to values reported by Williams et al. (2004).
 
 The bio-energetic model was calculated 15,000 times with new parameter values chosen from the listed ranges each time. A distribution of simulation outcomes and the median outcome along with 2.5 and 97.5 percentiles were calculated.
 
