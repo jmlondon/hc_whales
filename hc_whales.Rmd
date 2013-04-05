@@ -77,6 +77,8 @@ For each observation, a predation rate (kills/hour) was calculated from the numb
 
 ### Generalized Linear Model
 
+<!-- see github issue #5 and discuss options with JVH -->
+
 Aerial counts done between 1996 and 2004 were assembled and incorporated into a generalized linear model (GLM) to evaluate the impact of killer whale consumption in 2003 on the harbor seal population of Hood Canal. Further details on the aerial survey protocol can be found in Jeffries et al. (2003). When available, all counts were done from photographs taken during the aerial survey. When photographs were not taken, counts recorded by the aerial observer were used.
 
 Harbor seal haul out patterns are known to be influenced by tidal height, tidal stage, time of day and day of year. Historical observations in Hood Canal suggest harbor seals are more likely to haul out at high tide stages in mid-afternoon and during the pupping (August-October) and molting (September-November) seasons. All aerial surveys in Hood Canal between 1996 and 2004 were flown between August and November and within +/- 2 hours of high tide. Because surveys are limited to times when seals are expected to haul out in the highest proportions, the inclusion of tidal factors (stage and height) were not included in the final GLM analysis. 
@@ -190,6 +192,8 @@ Behaviors observed in Hood Canal appear to be typical of other mammal-eating kil
 
 ### Generalized Linear Model
 
+<!-- see github issue #5 and discuss options with JVH -->
+
 Counts from aerial surveys at five index haul-outs in Hood Canal do not exhibit obvious signs of significant population reduction after either of the killer whale incursions (Figure 2.3). The average count across years from 1996 to 2000 was 684. Huber et al. (2001) have proposed a correction factor for seals in the water of 1.56 for the inland waters of Washington. Thus, the pre-killer whale estimate of seals in Hood Canal is 1068.
 
 **Figure 2.3** Box and whisker plot of aerial survey counts in Hood Canal summed across five index haul-outs for surveys flown between August and November from 1996 to 2004.
@@ -249,6 +253,8 @@ Despite differences in the 2003 and 2005 events (number of days, number of whale
 Parameters included in the bio-energetic model are reasonable given the current state of knowledge with respect to the ecology and biology of Bigg's killer whales. By incorporating parameter uncertainty into the model we can better represent our understanding of killer whale bio-energetics and the range of population impacts that could be expected. Validation is a key aspect of any modeling exercise, and observations conducted during the 2005 incursion have provided an opportunity to compare the model predictions with empirical field data. Overall, the bio-energetic model is consistent with empirical estimates determined from field observations. The bio-energetic model and range of parameters used appear to be appropriate predictors of killer whale consumption of harbor seals in Hood Canal.
 
 ### GLM Analysis of Harbor Seal Counts
+
+<!-- see github issue #5 and discuss options with JVH -->
 
 The difference between the predicted impact of killer whales on the harbor seal population in Hood Canal and the observed population change is unexpectedly large. The reason for the disparity is unknown at this time. While many of the parameter values and ranges used in the bio-energetic model are not based on empirical data, we feel these values are reasonable based on all current knowledge of killer whale and large mammal bio-energetics. The aerial surveys do exhibit a large amount of variability within and between years. It is not known how much of the variability is due to natural variation and how much is related to sampling variability. A significant factor in this variation may be the influence of human disturbance on haul-out patterns of seals in Hood Canal. 
 
