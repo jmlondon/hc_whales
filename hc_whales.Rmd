@@ -10,7 +10,9 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 
 **Steven J. Jeffries** (WEFW)  
 **Monique Lance** (WDFW)  
-**John Durban** (SWFSC)  
+**John Durban** (SWFSC) 
+**Jay M Ver Hoef** (NMML)
+**Paul Wade** (NMML)
 **Glenn VanBlaricom** (UW SAFS)  
 
 ---------------------------
