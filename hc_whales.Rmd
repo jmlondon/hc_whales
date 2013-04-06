@@ -99,24 +99,24 @@ Calorimetric content was determined with a Parr 1425 semi-micro bomb calorimeter
 
 The equation for determining total caloric requirements of the mammal-eating killer whales in Hood Canal is
 
-$$
+$$latex
   \begin{aligned}
   K_{whale} \times [M_{ad.male} \times N_{m} + M_{ad.female/sub} \times N_{f} + M_{juv} \times N_{j}] \times t_{days}
   \end{aligned}
 $$
 
 
-where $K_{whale}$ is the daily caloric requirement for killer whales in kcal/kg, $M_{ad.male}$ is the mass of an adult male killer whale, $M_{ad.female/sub)}$ is the mass of an adult female or sub-adult killer whale, $M_{juv}$ is the mass of a juvenile killer whale, $N_{m}$ is the number of Adult Males, $N_{f}$ is the number of Adult Females/Subadults, $N_{j}$ is the number of Juveniles, and t_{days} is the number of days present in Hood Canal.
+where $latex K_{whale}$ is the daily caloric requirement for killer whales in kcal/kg, $latex M_{ad.male}$ is the mass of an adult male killer whale, $latex M_{ad.female/sub)}$ is the mass of an adult female or sub-adult killer whale, $latex M_{juv}$ is the mass of a juvenile killer whale, $latex N_{m}$ is the number of Adult Males, $latex N_{f}$ is the number of Adult Females/Subadults, $latex N_{j}$ is the number of Juveniles, and $latex t_{days}$ is the number of days present in Hood Canal.
 
 The caloric value of harbor seals in Hood Canal can be determined from
 
-$$
+$$latex
     \begin{aligned}
     K_{seal} \times M_{seal} \times A_{whale}
     \end{aligned}
 $$
 
-where $K_{seal}$ is the caloric value of a seal in kcal/kg, $M_{seal}$ is the mass of a harbor seal and $A_{whale}$ is the caloric assimilation value for whales.
+where $latex K_{seal}$ is the caloric value of a seal in kcal/kg, $latex M_{seal}$ is the mass of a harbor seal and $latex A_{whale}$ is the caloric assimilation value for whales.
 
 Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.
 
