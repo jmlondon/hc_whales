@@ -1,7 +1,5 @@
 # Impacts of Two Extended Foraging Events by Mammal-Eating Killer Whales on the Population of Harbor Seals in Hood Canal,Washington
 
----------------------------
-
 **Josh M London**  
 Polar Ecosystem Program  
 National Marine Mammal Laboratory, Alaska Fisheries Science Center  
@@ -15,7 +13,6 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 **Paul Wade** (NMML)  
 **Glenn VanBlaricom** (UW SAFS)  
 
----------------------------
 
 
 
