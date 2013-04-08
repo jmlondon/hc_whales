@@ -1,3 +1,4 @@
+## DO NOT CITE WITHOUT AUTHOR CONSENT ##
 # Impacts of Two Extended Foraging Events by Mammal-Eating Killer Whales on the Population of Harbor Seals in Hood Canal,Washington
 
 **Josh M London**  
