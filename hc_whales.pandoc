@@ -1,0 +1,15 @@
+format: html
+standalone:
+mathjax:
+bibliography: hc_whales.bib
+output: hc_whales.html
+
+format: latex
+latex-engine: xelatex
+bibliography: hc_whales.bib
+biblatex:
+output: hc_whales.tex
+
+format: docx
+bibliography: hc_whales.bib
+output: hc_whales.docx
