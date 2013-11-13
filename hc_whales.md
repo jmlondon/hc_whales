@@ -10,7 +10,7 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 **Steven J. Jeffries** (WEFW)  
 **Monique Lance** (WDFW)  
 **John Durban** (SWFSC)  
-**Jay M Ver Hoef** (NMML)  
+**Jay M. Ver Hoef** (NMML)  
 **Paul Wade** (NMML)  
 **Glenn VanBlaricom** (UW SAFS)  
 
@@ -18,14 +18,9 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 
 
 
-
-
-
-
-
 ## Introduction
 
-The theory that Bigg's killer whales (often referred to as transient-type or mammal-eating killer whales) may be responsible for declines of pinniped populations in the Eastern North Pacific has garnered significant debate (<a href="http://dx.doi.org/DOI 10.1111/j.1748-7692.2008.00185.x">Springer et al. 2008</a> ; <a href="<Go to ISI>://000226297500018">Williams et al. 2004</a> ; <a href="http://dx.doi.org/DOI 10.1016/j.pocean.2006.02.007">DeMaster et al. 2006</a> ; <a href="http://dx.doi.org/DOI 10.1111/j.1748-7692.2006.00093.x">Wade et al. 2007</a>  ). This hypothesis stems from the conclusion that predation by a few killer whales is responsible for a dramatic decline in abundance of sea otters in the Aleutian Islands (Estes et al. 1998). Springer et al. (2003) expanded the top-down effect of killer whale predation to other pinniped species in the North Pacific. Their theories rely heavily on assumptions regarding daily metabolic requirements of wild killer whales and their functional response to prey populations. These assumptions and analyses were outlined in Williams et al. (2004). Unfortunately, opportunities to verify these assumptions with empirical data from wild populations are limited. Bigg's killer whales are characterized by discreet behavior and spend much of their time in remote locations not frequented by researchers. Therefore, knowledge of killer whale intake rates is limited to small datasets of mostly opportunistic data or extrapolations from captive killer whales or other large terrestrial carnivores.
+The theory that Bigg's killer whales (often referred to as transient-type or mammal-eating killer whales) may be responsible for declines of pinniped populations in the Eastern North Pacific has garnered significant debate [@Springer2008; @Williams2004; @DeMaster2006; @Wade2007]. This hypothesis stems from the conclusion that predation by a few killer whales is responsible for a dramatic decline in abundance of sea otters in the Aleutian Islands (Estes et al. 1998). Springer et al. (2003) expanded the top-down effect of killer whale predation to other pinniped species in the North Pacific. Their theories rely heavily on assumptions regarding daily metabolic requirements of wild killer whales and their functional response to prey populations. These assumptions and analyses were outlined in Williams et al. (2004). Unfortunately, opportunities to verify these assumptions with empirical data from wild populations are limited. Bigg's killer whales are characterized by discreet behavior and spend much of their time in remote locations not frequented by researchers. Therefore, knowledge of killer whale intake rates is limited to small datasets of mostly opportunistic data or extrapolations from captive killer whales or other large terrestrial carnivores.
 
 One might imagine an ideal situation whereby daily requirements of killer whales could be estimated from a wild population. Under this scenario, a group of whales would be confined to a specific geographic area over a certain period of time. These whales would then be provided with a known amount of prey. As long as no additional prey were added to the area or removed by any means other than killer whale predation, differences in prey abundance would provide an estimate for daily energetic requirements and insights into the potential impact killer whales might have on isolated pinniped populations throughout the Eastern North Pacific. Additionally, observations of killer whales while in the area would provide an independent assessment of prey consumption.
 
@@ -211,11 +206,5 @@ The difference between the predicted impact of killer whales on the harbor seal 
 The fact such a rare behavior has happened twice in the same location within two years suggests there may be something especially attractive about Hood Canal. The harbor seal population in Hood Canal is relatively naïve to killer whale predation. Hood Canal is a long and narrow fjord with deep water areas that may provide a situational advantage to the predator. Warmer temperatures and relative quietness of the environment in Hood Canal may also be of importance to killer whales. Any attempt to explain why whales have chosen Hood Canal for these extended stays is mostly speculative at this point. It does, however, seem clear from the bio-energetic models that prey density plays a critical role in determining the timing of departure from Hood Canal.
 
 ## Bibliography
-
-
-- D DeMaster, A Trites, P Clapham, S Mizroch, P Wade, R Small, J  Ver Hoef,   (2006) {The sequential megafaunal collapse hypothesis: testing with existing data}.  *Progress in Oceanography*  **68**  (2-4)   329-342  [DOI 10.1016/j.pocean.2006.02.007](http://dx.doi.org/DOI 10.1016/j.pocean.2006.02.007)
-- A Springer, J Estes, G Vliet, T Williams, D Doak, E Danner, B Pfister,   (2008) {Mammal-eating killer whales, industrial whaling, and the sequential megafaunal collapse in the North Pacific Ocean: A reply to critics of Springer et al. 2003}.  *Marine Mammal Science*  **24**  (2)   414-442  [DOI 10.1111/j.1748-7692.2008.00185.x](http://dx.doi.org/DOI 10.1111/j.1748-7692.2008.00185.x)
-- P Wade, V Burkanov, M Dahlheim, N Friday, L Fritz, T Loughlin, S Mizroch, M Muto, D Rice, L Barrett-Lennard, N Black, A Burdin, J Calambokidis, S Cerchio, J Ford, J Jacobsen, C Matkin, D Matkin, A Mehta, R Small, J Straley, S McCluskey, G VanBlaricom, P Clapham,   (2007) {Killer whales and marine mammal trends in the North Pacific -- a re-examination of evidence for sequential megafauna collapse and the prey-switching hypothesis}.  *Marine Mammal Science*  **23**  (4)   766-802  [DOI 10.1111/j.1748-7692.2006.00093.x](http://dx.doi.org/DOI 10.1111/j.1748-7692.2006.00093.x)
-- T Williams, J Estes, D Doak, A Springer,   (2004) {Killer appetites: Assessing the role of predators in ecological communities}.  *Ecology*  **85**  (12)   3373-3384  [<Go to ISI>://000226297500018](<Go to ISI>://000226297500018)
 
 
