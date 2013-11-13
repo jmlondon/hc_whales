@@ -14,6 +14,13 @@ National Marine Fisheries Service, NOAA, US Dept. of Commerce
 **Paul Wade** (NMML)  
 **Glenn VanBlaricom** (UW SAFS)  
 
+```{r libraries, include=FALSE}
+library(knitcitations)
+```
+
+```{r bib, include=FALSE}
+bib <- read.bibtex("hc_whales.bib")
+```
 
 ```{r options,include=FALSE}
 #print figure captions for RStudio generated HTML
@@ -43,7 +50,7 @@ tn = local({
 
 ## Introduction
 
-The theory that Bigg's killer whales (often referred to as transient-type or mammal-eating killer whales) may be responsible for declines of pinniped populations in the Eastern North Pacific has garnered significant debate (Springer et al. 2003; Williams et al. 2004; Mizroch and Rice 2006; Trites et al. 2006; Wade et al. 2006). This hypothesis stems from the conclusion that predation by a few killer whales is responsible for a dramatic decline in abundance of sea otters in the Aleutian Islands (Estes et al. 1998). Springer et al. (2003) expanded the top-down effect of killer whale predation to other pinniped species in the North Pacific. Their theories rely heavily on assumptions regarding daily metabolic requirements of wild killer whales and their functional response to prey populations. These assumptions and analyses were outlined in Williams et al. (2004). Unfortunately, opportunities to verify these assumptions with empirical data from wild populations are limited. Bigg's killer whales are characterized by discreet behavior and spend much of their time in remote locations not frequented by researchers. Therefore, knowledge of killer whale intake rates is limited to small datasets of mostly opportunistic data or extrapolations from captive killer whales or other large terrestrial carnivores.
+The theory that Bigg's killer whales (often referred to as transient-type or mammal-eating killer whales) may be responsible for declines of pinniped populations in the Eastern North Pacific has garnered significant debate `r citep(bib[c("Springer2008","Williams2004","DeMaster2006","Wade2007")])`. This hypothesis stems from the conclusion that predation by a few killer whales is responsible for a dramatic decline in abundance of sea otters in the Aleutian Islands (Estes et al. 1998). Springer et al. (2003) expanded the top-down effect of killer whale predation to other pinniped species in the North Pacific. Their theories rely heavily on assumptions regarding daily metabolic requirements of wild killer whales and their functional response to prey populations. These assumptions and analyses were outlined in Williams et al. (2004). Unfortunately, opportunities to verify these assumptions with empirical data from wild populations are limited. Bigg's killer whales are characterized by discreet behavior and spend much of their time in remote locations not frequented by researchers. Therefore, knowledge of killer whale intake rates is limited to small datasets of mostly opportunistic data or extrapolations from captive killer whales or other large terrestrial carnivores.
 
 One might imagine an ideal situation whereby daily requirements of killer whales could be estimated from a wild population. Under this scenario, a group of whales would be confined to a specific geographic area over a certain period of time. These whales would then be provided with a known amount of prey. As long as no additional prey were added to the area or removed by any means other than killer whale predation, differences in prey abundance would provide an estimate for daily energetic requirements and insights into the potential impact killer whales might have on isolated pinniped populations throughout the Eastern North Pacific. Additionally, observations of killer whales while in the area would provide an independent assessment of prey consumption.
 
@@ -259,3 +266,10 @@ Parameters included in the bio-energetic model are reasonable given the current 
 The difference between the predicted impact of killer whales on the harbor seal population in Hood Canal and the observed population change is unexpectedly large. The reason for the disparity is unknown at this time. While many of the parameter values and ranges used in the bio-energetic model are not based on empirical data, we feel these values are reasonable based on all current knowledge of killer whale and large mammal bio-energetics. The aerial surveys do exhibit a large amount of variability within and between years. It is not known how much of the variability is due to natural variation and how much is related to sampling variability. A significant factor in this variation may be the influence of human disturbance on haul-out patterns of seals in Hood Canal.
 
 The fact such a rare behavior has happened twice in the same location within two years suggests there may be something especially attractive about Hood Canal. The harbor seal population in Hood Canal is relatively naïve to killer whale predation. Hood Canal is a long and narrow fjord with deep water areas that may provide a situational advantage to the predator. Warmer temperatures and relative quietness of the environment in Hood Canal may also be of importance to killer whales. Any attempt to explain why whales have chosen Hood Canal for these extended stays is mostly speculative at this point. It does, however, seem clear from the bio-energetic models that prey density plays a critical role in determining the timing of departure from Hood Canal.
+
+## Bibliography
+
+```{r bibliography, results='asis',echo=FALSE}
+bibliography()
+```
+
