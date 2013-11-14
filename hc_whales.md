@@ -1,20 +1,3 @@
-<!--pandoc
-format: html
-standalone:
-mathjax:
-bibliography: hc_whales.bib
-output: hc_whales.html
-
-format: latex
-bibliography: hc_whales.bib
-latex-engine: xelatex
-biblatex:
-output: hc_whales.pdf
-
-format: docx
-bibliography: hc_whales.bib
-output: hc_whales.docx
--->
 
 
 
