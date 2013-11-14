@@ -1,6 +1,10 @@
 options(rstudio.markdownToHTML = 
             function(inputFile, outputFile) {      
-                require(markdown)
-                markdownToHTML(inputFile, outputFile, stylesheet='styles/github.css')   
+                system(paste("pandoc --biblio hc_whales.bib",
+                             "-c styles/github.css",
+                             "--mathjax",
+                             shQuote(inputFile), 
+                             "-o", 
+                             shQuote(outputFile)))
             }
 ) 
