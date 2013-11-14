@@ -9,6 +9,27 @@
   <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
+<!--pandoc
+format: html
+standalone:
+mathjax:
+bibliography: hc_whales.bib
+output: hc_whales.html
+
+format: latex
+bibliography: hc_whales.bib
+latex-engine: xelatex
+biblatex:
+output: hc_whales.pdf
+
+format: docx
+bibliography: hc_whales.bib
+output: hc_whales.docx
+-->
+
+
+
+
 <h2 id="do-not-cite-without-author-consent">DO NOT CITE WITHOUT AUTHOR CONSENT</h2>
 <h1 id="impacts-of-two-extended-foraging-events-by-mammal-eating-killer-whales-on-the-population-of-harbor-seals-in-hood-canalwashington">Impacts of Two Extended Foraging Events by Mammal-Eating Killer Whales on the Population of Harbor Seals in Hood Canal,Washington</h1>
 <p><strong>Josh M London</strong><br />Polar Ecosystem Program<br />National Marine Mammal Laboratory, Alaska Fisheries Science Center<br />National Marine Fisheries Service, NOAA, US Dept. of Commerce<br />7600 Sand Point Way NE, Seattle, Washington, USA, 98115</p>
@@ -56,7 +77,7 @@
 \]</span></p>
 <p>where <span class="math">\(latex K_{seal}\)</span> is the caloric value of a seal in kcal/kg, <span class="math">\(latex M_{seal}\)</span> is the mass of a harbor seal and <span class="math">\(latex A_{whale}\)</span> is the caloric assimilation value for whales.</p>
 <p>Whale requirements divided by the caloric value of harbor seals results in a predicted number of harbor seals consumed. This value, however, does not accurately reflect uncertainty around any of the parameters. Therefore, a Monte Carlo simulation was used to include uncertainty in the final estimate.</p>
-<p><strong>Table 1</strong>: Parameter values and distributions used in the Monte Carlo simulation of killer whale consumption of harbor seals in Hood Canal, Washington.</p>
+<p>Table 1: Parameter values and distributions used in the Monte Carlo simulation of killer whale consumption of harbor seals in Hood Canal, Washington.</p>
 <table>
 <thead>
 <tr class="header">
@@ -129,19 +150,19 @@
 <h3 id="behavioral-observations-1">Behavioral Observations</h3>
 <p>The killer whales present in 2003 and 2005 represent different individuals that are of no known relation. In 2003, the group consisted of 11 individuals (T14, T74, T73, T73a, T73b, T73c, T77, T77a, T77b, T123, and T123a) of which 2 were adult males (T14 and T74), 7 were sub-adults or females and 2 were juveniles (T73c and T77b). In 2005, six whales were present (T71, T71a, T71b, T124a, T124a1, T124a2) and the group was composed of two adult females (T71 and T124a) and their two offspring. With the exception of whale T14 (2003), these whales have limited to no sighting history in Washington state. The longest and most consistent sighting record of individuals from both groups comes from areas of northern Southeast Alaska (pers. comm. Jan Straley, University of Alaska Southeast, Sitka, AK).</p>
 <p>Opportunities for detailed observations of the group in 2003 were limited to a few boat-based observations and sighting reports from residents of Hood Canal. All eleven whales were observed to use the entire expanse of Hood Canal and were most often observed as either one large group or two smaller groups of 5-6 whales. No confirmed predations were observed during boat-based research observations, however, several residents did report sightings of harbor seal predations and a few of those observations were confirmed with photographic documentation.</p>
-<p><strong>Figure 2.1</strong> Box plot of observation times during 2005. The box extents represent the time when observers were following the whales and the dark lines represent the mid-point of the observation.</p>
+<p>Figure: Box plot of observation times during 2005. The box extents represent the time when observers were following the whales and the dark lines represent the mid-point of the observation.</p>
 <p>Vessel based observation effort in 2005 was significantly greater than in 2003. Fourteen observation periods were conducted between February 2, 2005 and July 1, 2005.. The average observation period lasted 4.64 hours with a minimum of 1.7 hours and maximum of 7.17 hours (Figure 2.1).</p>
 <p>GPS track-lines and predation locations (Figure 2.2) clearly demonstrate how these whales used the entire expanse of Hood Canal. Additional locations reported by residents to Orca Network (not shown) present a similar spatial use pattern.</p>
-<p><strong>Figure 2.2</strong> Map of North and South Hood Canal showing tracklines from each of the boat based observations and locations of all confirmed harbor seal predations in 2005.</p>
+<p>Figure: Map of North and South Hood Canal showing tracklines from each of the boat based observations and locations of all confirmed harbor seal predations in 2005.</p>
 <p>A total of 18 confirmed harbor seal predations were observed during the observation periods. One unsuccessful predation attempt on a California sea lion was also observed, but all other predation events were confirmed as harbor seals. It was not possible to determine the level of individual consumption; therefore a group predation rate was calculated. When adjusted for observation effort, the median consumption rate is 0.329 harbor seals per hour with boot-strapped 97.5 and 2.5 percentiles of 0.465 and 0.215 harbor seals per hour, respectively. The diurnal estimate for total consumption is 758 harbor seals consumed with a boot-strapped confidence interval of 495-1072. The estimate of consumption across all hours is 1358 with boot-strapped confidence interval of 887-1921.</p>
 <p>Behaviors observed in Hood Canal appear to be typical of other mammal-eating killer whales. Predation events occurred over deep water, away from any shoreline, and within a few meters of the shoreline in relatively shallow water. The range of behaviors observed was also variable between events. On those occasions when a predation event was relatively short, an oil slick and small remains in the water column were often the only indication of harbor seal presence. However, extended predation events were often characterized by the presence of a seal at the surface. These longer predation events often involved a number of tail slap and ramming attacks on the seal.</p>
 <h3 id="generalized-linear-model-1">Generalized Linear Model</h3>
 <!-- see github issue #5 and discuss options with JVH -->
 
 <p>Counts from aerial surveys at five index haul-outs in Hood Canal do not exhibit obvious signs of significant population reduction after either of the killer whale incursions (Figure 2.3). The average count across years from 1996 to 2000 was 684. Huber et al. (2001) have proposed a correction factor for seals in the water of 1.56 for the inland waters of Washington. Thus, the pre-killer whale estimate of seals in Hood Canal is 1068.</p>
-<p><strong>Figure 2.3</strong> Box and whisker plot of aerial survey counts in Hood Canal summed across five index haul-outs for surveys flown between August and November from 1996 to 2004.</p>
+<p>Figure: Box and whisker plot of aerial survey counts in Hood Canal summed across five index haul-outs for surveys flown between August and November from 1996 to 2004.&quot;)`</p>
 <p>AIC values were determined for each GLM representing the four hypotheses (Table 2.2). The ‘Treatment + Growth’ model was favored with the lowest AIC value of 1070.064. However, the AIC values for the other models resulted in delta values of as little as 1.196 (‘Year Model’) and as much as 3.233 (‘Treatment Model’).</p>
-<p><strong>Table 2</strong>: AIC values from four GLMs evaluating hypotheses of harbor seal population response to killer whale predation in Hood Canal, Washington.</p>
+<p>Table 2: AIC values from four GLMs evaluating hypotheses of harbor seal population response to killer whale predation in Hood Canal, Washington.</p>
 <table>
 <thead>
 <tr class="header">
@@ -172,7 +193,7 @@
 <h3 id="bio-energetic-monte-carlo-simulation-1">Bio-energetic Monte Carlo Simulation</h3>
 <p>Moisture content values were approximately 42 to 51 percent in the two harbor seal carcasses processed (Table 2.3). The yearling harbor seal carcass was recovered from southern Puget Sound and had a mass of 19 kg. The sub-adult animal had a mass of 49 kg and was recovered from Gray’s Harbor, Washington.</p>
 <p>The values of 2798 kcal/kg for the 49kg sub-adult and 3590 kcal/kg for the 19kg yearling are lower values than reported for ringed seals (Perez 1990) and other pinnipeds (Williams et al. 2004).</p>
-<p><strong>Table 3</strong>: Calorimetric values determined from whole body harbor seal carcasses recovered in Washington State.</p>
+<p>Table 3: Calorimetric values determined from whole body harbor seal carcasses recovered in Washington State.</p>
 <table>
 <thead>
 <tr class="header">
@@ -198,13 +219,9 @@
 </tbody>
 </table>
 <p>The bio-energetic Monte Carlo simulation for the 2003 event resulted in a median outcome of 997 seals consumed (5th and 95th percentiles: 708, 1435). For the 2005 event, the median outcome determined from the model was 960 (2.5 and 97.5 percentiles: 685, 1383). The distributions of outcomes for both events are strikingly similar (Figure 2.4). The bio-energetic model prediction compares with estimates of 758 and 1358 seals consumed for the diurnal only and all hour assumptions respectively. The estimate from the bio-energetic model falls almost near the midpoint of these two empirical estimates and the all-hour consumption estimate of 1358 is within the 95% confidence range. The daylight only estimate falls just outside the 2.5 percentile.</p>
-<figure>
-<img src="figure/mc-density-plot.png">
-<figcaption>
-<strong>Figure 1</strong>: Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions
-</figcaption></figure>
-
-
+<div class="figure">
+<img src="figure/mc-density-plot.png" alt="Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions" /><p class="caption">Frequency distribution of model outputs from the bio-energetic Monte Carlo simulation for the 2003 and 2005 killer whale incursions</p>
+</div>
 <h2 id="discussion">Discussion</h2>
 <h3 id="behavioral-observations-2">Behavioral Observations</h3>
 <p>The two extended foraging events by Bigg's killer whales in Hood Canal differ in many respects from the expected behavior. Bigg's killer whales are thought to travel in small groups and spend only a few days in one particular area. With stays of 59 and 172 days, the Hood Canal events represent some of the longest reported stays by Bigg's killer whales in one area. However, the observed behaviors while in Hood Canal were not atypical of those seen in other observations. In both 2003 and 2005, the killer whales appear to have used the full expanse of Hood Canal as part of their regular movement and foraging patterns. Neither group exhibited any abnormal behaviors that might be characteristic of a group trapped or lost.</p>
